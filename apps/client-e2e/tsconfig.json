@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "@wdio/jasmine-framework"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "../../wdio.generated.config.ts"
+  ]
+}
